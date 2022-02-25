@@ -45,7 +45,7 @@ int main(void)
 
 */
 
-
+/*
 #include <stdio.h>
 int main(void)
 {
@@ -73,6 +73,60 @@ int main(void)
         else if(a % 2 == 1)
         {
             printf("odd");
+        }
+    }
+    return 0;
+}
+
+*/
+
+
+// #include <stdio.h>
+// int main(void)
+// {
+//     int utl, sum;
+//     scanf("%d", &utl);
+//     for(int i = 0; i<= utl; i++)
+//     {
+//         if(i % 2 == 0) {
+//             sum += i;
+//         }
+//     }
+//     printf("%d", sum);
+//     return 0;
+// }
+
+
+/*
+
+#include <stdio.h>
+
+int main(void)
+{
+    char str = 'A';
+    do
+    {
+        scanf("%c", &str);
+        printf("%c", str);
+    }while(str != 'q');
+    
+    return 0;
+}
+
+
+*/
+
+#include <stdio.h>
+int main(void)
+{
+    int n, sum =0;
+    scanf("%d", &n);
+    for(int i = 1; i <= n; i++){
+        sum += i;
+        if(sum >= n)
+        {
+            printf("%d", i);
+            break;
         }
     }
     return 0;
