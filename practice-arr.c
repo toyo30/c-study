@@ -116,6 +116,9 @@ int main(void)
 
 */
 
+
+/*
+
 #include <stdio.h>
 int main(void)
 {
@@ -131,3 +134,19 @@ int main(void)
     }
     return 0;
 }
+
+*/
+
+
+
+#include <stdio.h>
+
+int main(void)
+{
+    int a = 10;
+    char b = "he";
+    printf("%c", a);
+    printf("%c", b);
+    return 0;
+}
+
